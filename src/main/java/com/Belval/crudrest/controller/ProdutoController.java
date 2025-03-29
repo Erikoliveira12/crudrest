@@ -33,7 +33,7 @@ public class ProdutoController {
 	
 		produto.setId(proxId++);
 		
-		System.out.println(produto.toString());
+		System.out.println("Produto criado" + produto.toString());
 		lista.add(produto);
 		
 		return ResponseEntity
